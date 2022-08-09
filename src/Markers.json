@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "restaurant": "Paesano Pizza West End",
+    "address": "471 Great Western Rd, Glasgow G12 8HL",
+    "price": "£",
+    "rating": "4.7",
+    "category": "Pizza",
+    "coordinates": [55.87527702858954, -4.2817140247349625]
+  },
+  {
+    "id": 2,
+    "restaurant": "Cail Bruich",
+    "address": "725 Great Western Rd, Glasgow G12 8QX",
+    "price": "£££",
+    "rating": "4.7",
+    "category": "Fine dining",
+    "coordinates": [55.87748050181526, -4.289317283629278]
+
+  },
+  {
+    "id": 3,
+    "restaurant": "Singl-end Garnethill",
+    "address": "263 Renfrew St, Glasgow G3 6TT",
+    "price": "££",
+    "rating": "4.8",
+    "category": "Cafe",
+    "coordinates": [55.866609709522606, -4.26842969529255]
+
+  },
+  {
+    "id": 4,
+    "restaurant": "Mother India",
+    "address": "28 Westminster Terrace, Finnieston, Glasgow G3 7RU",
+    "price": "££",
+    "rating": "4.5",
+    "category": "Indian",
+    "coordinates": [55.8652749742269, -4.28394567688942]
+
+  },
+  {
+    "id": 5,
+    "restaurant": "Loon Fung",
+    "address": "Sauchiehall St, City Centre, Glasgow G2 3LG",
+    "price": "££",
+    "rating": "4.3",
+    "category": "Chinese",
+    "coordinates": [55.865950905794065, -4.268804427191847]
+
+  },
+  {
+    "id": 6,
+    "restaurant": "Mono",
+    "address": "12, Kings Court, King St, Glasgow G1 5RB",
+    "price": "££",
+    "rating": "4.4",
+    "category": "Vegan",
+    "coordinates": [55.855673322108416, -4.246108795299366]
+
+  },
+  {
+    "id": 7,
+    "restaurant": "Merchant Chippie",
+    "address": "155 High St, Glasgow G1 1PH",
+    "price": "£",
+    "rating": "4.4",
+    "category": "British",
+    "coordinates": [55.85891888930877, -4.241694567074937]
+
+  },
+  {
+    "id": 8,
+    "restaurant": "Nippon Kitchen",
+    "address": "91 W George St, Glasgow G2 1PB",
+    "price": "££",
+    "rating": "4.3",
+    "category": "Japanese",
+    "coordinates": [55.8620704206489, -4.255149236399717]
+
+  },
+  {
+    "id": 9,
+    "restaurant": "Piccolo Mondo Glasgow",
+    "address": "344 Argyle St, Glasgow G2 8LY",
+    "price": "N/A",
+    "rating": "4.6",
+    "category": "European",
+    "coordinates": [55.858957111627575, -4.262197011862883]
+
+  },
+  {
+    "id": 10,
+    "restaurant": "Meat Joint Scottish Steakhouse",
+    "address": "327 Sauchiehall St, Glasgow G2 3HW",
+    "price": "N/A",
+    "rating": "4.9",
+    "category": "Steakhouse",
+    "coordinates": [55.865567091036446, -4.265474924741015]
+  }
+]
