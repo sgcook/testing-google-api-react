@@ -7,12 +7,24 @@ import "./map.css";
 import Markers from "./Markers.json";
 
 const Map = () => {
-  /*does not recenter itself if app accidentally loads*/
+  const latCoords = Markers.map(place => place.coordinates[0]);
+  const lngcoords = Markers.map(place => place.coordinates[1]);
+
+  const findAverageCoords = (latCoords, lngcoords) => {
+    const latAverage = latCoords.reduce((a, b) => a + b, 0) / latCoords.length;
+    const lngAverage = lngcoords.reduce((a, b) => a + b, 0) / lngcoords.length;
+    
+    const coords = [];
+    coords.push(latAverage, lngAverage);
+    return coords;
+  }
+
+  const averageCoords = findAverageCoords(latCoords, lngcoords);
 
   return (
-    <GoogleMap zoom={10} center={{lat:55.859129049203794, lng: -4.258108561806001  }} mapContainerClassName="map-container">
+    <GoogleMap zoom={13.5} center={{lat: averageCoords[0], lng: averageCoords[1]}} mapContainerClassName="map-container">
       {Markers.map((place) => (
-        <MarkerF position={{lat: place.coordinates[0], lng: place.coordinates[1]}}/>
+        <MarkerF key={place.coordinates[0]} position={{lat: place.coordinates[0], lng: place.coordinates[1]}}/>
       ))}
     </GoogleMap>
   )
