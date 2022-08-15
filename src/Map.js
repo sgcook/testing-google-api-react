@@ -46,8 +46,11 @@ const Map = () => {
     })
   }
 
+  console.log(directions);
+
   return (
     <GoogleMap zoom={13.5} center={{lat: averageCoords[0], lng: averageCoords[1]}} mapContainerClassName="map-container">
+      <MarkerF key={stationCoords} position={{lat: stationCoords[0], lng: stationCoords[1]}} />
       {fiveRestaurants.map((place) => (
         <MarkerF key={place.coordinates[0]} position={{lat: place.coordinates[0], lng: place.coordinates[1]}} onLoad={fetchDirections}/>
       ))}
